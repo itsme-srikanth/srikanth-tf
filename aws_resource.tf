@@ -1,8 +1,8 @@
-#EBS volume / hdd
-resource "aws_ebs_volume" "ksk.tf" {
- availability_zone = "ap-south-la"
- size              = 5
+#EBS volume / HDD
+resource "aws_ebs_volume" "tf_srikanth" {
+ availability_zone = "ap-south-1a"
+ size              = 10
   tags = {
-     NAME="kurra.ksk"                       
+     Name = "kurra.ksk"                       
   }                           
 }
